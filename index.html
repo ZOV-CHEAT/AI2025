@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">🤖</span>
+                <span>AI Coder</span>
+            </div>
+
+            <div class="api-section">
+                <div class="section-title">
+                    <span class="selector-icon">⚡</span>
+                    Режим работы
+                </div>
+                
+                <div class="ai-selector">
+                    <div class="ai-option active" onclick="selectMode('openrouter')">
+                        <div class="ai-name">Готовый OpenRouter</div>
+                        <div class="ai-description">Бесплатный ключ уже вставлен</div>
+                    </div>
+                    
+                    <div class="ai-option" onclick="selectMode('custom')">
+                        <div class="ai-name">Свой ключ</div>
+                        <div class="ai-description">Вставь ключ с любого сайта</div>
+                    </div>
+                </div>
+
+                <div class="input-group" id="providerContainer">
+                    <div class="section-title">
+                        <span class="selector-icon">🌐</span>
+                        Сайт ключа
+                    </div>
+                    <select class="model-select" id="providerSelect" onchange="selectProvider()">
+                        <option value="openai">OpenAI (platform.openai.com)</option>
+                        <option value="openrouter">OpenRouter (openrouter.ai)</option>
+                        <option value="google">Google AI (makersuite.google.com)</option>
+                        <option value="anthropic">Anthropic (console.anthropic.com)</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <div class="section-title">
+                        <span class="selector-icon">🔑</span>
+                        API Ключ
+                    </div>
+                    <input type="password" class="key-input" id="apiKey" placeholder="••••••••••••••••" autocomplete="off">
+                </div>
+
+                <div class="input-group">
+                    <div class="section-title">
+                        <span class="selector-icon">🤖</span>
+                        Модель
+                    </div>
+                    <select class="model-select" id="modelSelect">
+                        <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                        <option value="gpt-4">GPT-4</option>
+                        <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                    </select>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="tokenCount">0</div>
+                        <div class="stat-label">Токены</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="messageCount">1</div>
+                        <div class="stat-label">Сообщения</div>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    📍 <strong>OpenRouter</strong><br>
+                    🔗 <a href="https://openrouter.ai" target="_blank">openrouter.ai</a><br>
+                    🆓 10к токенов бесплатно в день<br>
+                    ⚡ Ключ уже вставлен в код
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-title">💻 Чат с AI программистом</div>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span id="statusText">Готов (OpenRouter)</span>
+                </div>
+            </div>
+
+            <div class="messages" id="messages">
+                <div class="message ai-message">
+                    <div class="message-avatar ai-avatar">🤖</div>
+                    Привет! Я AI помощник для программирования. Могу писать код на JavaScript, Python, HTML/CSS и других языках. Просто попроси!<br><br>
+                    <strong>Режим:</strong> Готовый OpenRouter ключ<br>
+                    <strong>Модель:</strong> GPT-3.5 Turbo
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea class="message-input" id="userInput" placeholder="Напиши код на Python для сортировки массива..." rows="1"></textarea>
+                    <button class="send-button" id="sendButton" onclick="sendMessage()">
+                        <span>Отправить</span>
+                        <span>🚀</span>
+                    </button>
+                </div>
+                <div class="info-box">
+                    💡 Нажми Enter для отправки, Shift+Enter для новой строки
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
