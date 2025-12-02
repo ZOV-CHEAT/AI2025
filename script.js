@@ -29,7 +29,7 @@ const PROVIDERS = {
     },
     openrouter: {
         name: 'OpenRouter',
-        url: 'https://openrouter.ai/api/v1/chat/completions',
+        url: 'https://api.openrouter.ai/api/v1/chat/completions',
         models: [
             {id: 'openai/gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
             {id: 'meta-llama/llama-3.1-70b-instruct', name: 'Llama 3.1 70B'},
@@ -287,12 +287,17 @@ async function callAPI(prompt) {
         headers['Authorization'] = `Bearer ${apiKey}`;
         headers['HTTP-Referer'] = window.location.href;
         headers['X-Title'] = 'AI Code Chat';
+        headers['Origin'] = window.location.origin;
+        
         body = {
             model: model,
             messages: [{ role: 'user', content: prompt }],
             temperature: 0.7,
             max_tokens: 2000
         };
+        
+        const corsProxy = 'https://corsproxy.io/?';
+        url = corsProxy + encodeURIComponent(url);
     }
     else if (currentProvider === 'openai') {
         headers['Authorization'] = `Bearer ${apiKey}`;
@@ -322,14 +327,15 @@ async function callAPI(prompt) {
     const response = await fetch(url, {
         method: 'POST',
         headers: headers,
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
+        mode: 'cors'
     });
     
     if (!response.ok) {
         const error = await response.json().catch(() => ({}));
         if (response.status === 401) throw new Error('Неверный API ключ');
         if (response.status === 429) throw new Error('Лимит токенов исчерпан');
-        throw new Error(error.error?.message || `Ошибка ${response.status}: ${JSON.stringify(error)}`);
+        throw new Error(error.error?.message || `Ошибка ${response.status}`);
     }
     
     const data = await response.json();
