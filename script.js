@@ -1,1 +1,393 @@
-const _0x3dcaf4=_0x1b33;(function(_0xd3ca4b,_0x174f66){const _0x240600=_0x1b33,_0x156829=_0xd3ca4b();while(!![]){try{const _0x230373=parseInt(_0x240600(0x1c2))/0x1+-parseInt(_0x240600(0x18d))/0x2*(parseInt(_0x240600(0x1fa))/0x3)+-parseInt(_0x240600(0x1c5))/0x4+parseInt(_0x240600(0x189))/0x5*(-parseInt(_0x240600(0x227))/0x6)+parseInt(_0x240600(0x1f2))/0x7+-parseInt(_0x240600(0x221))/0x8*(parseInt(_0x240600(0x1ba))/0x9)+-parseInt(_0x240600(0x1d0))/0xa*(-parseInt(_0x240600(0x21b))/0xb);if(_0x230373===_0x174f66)break;else _0x156829['push'](_0x156829['shift']());}catch(_0x260580){_0x156829['push'](_0x156829['shift']());}}}(_0x668c,0xca574));const DEFAULT_KEY=_0x3dcaf4(0x200),messagesDiv=document[_0x3dcaf4(0x19d)]('messages'),userInput=document[_0x3dcaf4(0x19d)](_0x3dcaf4(0x1f5)),sendButton=document['getElementById']('sendButton'),apiKeyInput=document[_0x3dcaf4(0x19d)]('apiKey'),providerSelect=document[_0x3dcaf4(0x19d)](_0x3dcaf4(0x1a0)),modelSelect=document[_0x3dcaf4(0x19d)](_0x3dcaf4(0x208)),tokenCount=document['getElementById'](_0x3dcaf4(0x1f1)),messageCount=document[_0x3dcaf4(0x19d)](_0x3dcaf4(0x18c)),statusText=document[_0x3dcaf4(0x19d)]('statusText'),providerContainer=document[_0x3dcaf4(0x19d)]('providerContainer');let totalTokens=0x0,messageCounter=0x1,currentMode=_0x3dcaf4(0x1d5),currentProvider='openrouter';function _0x668c(){const _0x7bfc86=['code','&nbsp;&nbsp;','providerSelect','placeholder','preventDefault','claude-3-haiku-20240307','onclick','user-message','location','Gemini\x20Pro','Ошибка','openai/gpt-3.5-turbo','value','message\x20','</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Вставь\x20ключ\x20в\x20поле\x20выше<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📋\x20Выбери\x20модель\x20из\x20списка\x0a\x20\x20\x20\x20\x20\x20\x20\x20','content','Claude\x202','python','&lt;','cpp','innerHTML','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22copy-btn\x22>📋\x20Копировать</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<pre><code>','display','</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20Получи\x20ключ:\x20<a\x20href=\x22','anthropic/claude-2','DOMContentLoaded','message','<div\x20class=\x22code-block\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-language\x22>','8714421nyPcle',':</span>\x20','user','className','stringify','java','OpenAI','key','497053ZCOLVT','GPT-4','join','5659100EvJxuC','anthropic','text','gpt-3.5-turbo','application/json','disabled','gpt-4-turbo','https://platform.openai.com','<div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Готовый\x20OpenRouter</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20<a\x20href=\x22https://openrouter.ai\x22\x20target=\x22_blank\x22>openrouter.ai</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🆓\x2010к\x20токенов\x20бесплатно\x20в\x20день<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Ключ\x20уже\x20вставлен\x20в\x20код\x0a\x20\x20\x20\x20','generic','270mhtsUF','json','block','status','2023-06-01','openrouter','includes','none','models','.info-box','#00d4ff','href','error','<code\x20class=\x22inline-code\x22>$1</code>','Ошибка:\x20неизвестный\x20формат\x20ответа','</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Вставь\x20ключ\x20в\x20поле\x20выше<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20📋\x20Выбери\x20модель\x20из\x20списка\x0a\x20\x20\x20\x20','candidates','url','name','boxShadow','css','60px','total_tokens','anthropic-version','typing-indicator','</option>','POST','remove','addEventListener','shiftKey','height','rgba(0,\x20212,\x20255,\x200.3)','keydown','tokenCount','1511608JnEyDE','gpt-4','createElement','userInput','clipboard','ai-message','claude-3-sonnet-20240229','Ошибка\x20','700239GDpKqe','https://makersuite.google.com','OpenRouter',':generateContent?key=','textContent','Лимит\x20токенов\x20исчерпан','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','https://generativelanguage.googleapis.com/v1beta/models/','.ai-option[onclick*=\x22custom\x22]','\x0a\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Свой\x20ключ\x20с\x20','.ai-option[onclick*=\x22openrouter\x22]','min','javascript','typingIndicator','modelSelect','add','https://api.anthropic.com/v1/messages','Вставь\x20API\x20ключ\x20в\x20поле\x20слева','div','focus','trim','<br>','0\x200\x2015px\x20rgba(0,\x20212,\x20255,\x200.3)','\x20\x20\x20\x20','https://openrouter.ai','HTTP-Referer','Claude\x203\x20Sonnet','meta-llama/llama-3.1-70b-instruct','borderColor','Claude\x203\x20Haiku','replace','password','AI\x20Code\x20Chat','1876743OkUCoC','bash','Используется\x20готовый\x20ключ\x20OpenRouter','map','forEach','style','8mirphi','active','toUpperCase','https://openrouter.ai/api/v1/chat/completions','&#039;','https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent','5643906fAdchU','</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20Получи\x20ключ:\x20<a\x20href=\x22','GPT-4\x20Turbo','Готов\x20(','Готов\x20(OpenRouter)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Свой\x20ключ\x20с\x20','classList','openai','type','auto','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Готовый\x20OpenRouter</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20<a\x20href=\x22https://openrouter.ai\x22\x20target=\x22_blank\x22>openrouter.ai</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🆓\x2010к\x20токенов\x20бесплатно\x20в\x20день<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Ключ\x20уже\x20вставлен\x20в\x20код\x0a\x20\x20\x20\x20\x20\x20\x20\x20','Google\x20AI','<span>✓\x20Скопировано</span>','scrollTop','5oItFqj','querySelector','Authorization','messageCount','10ebMRQR','\x22\x20target=\x22_blank\x22>','appendChild','google','Неверный\x20API\x20ключ','</code></pre>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','X-Title','parts','keySite','Llama\x203.1\x2070B','filter','scrollHeight','Вставь\x20ключ\x20с\x20выбранного\x20сайта','.ai-option','querySelectorAll','https://console.anthropic.com','getElementById'];_0x668c=function(){return _0x7bfc86;};return _0x668c();}function _0x1b33(_0x38af83,_0x28ffdd){const _0x668c98=_0x668c();return _0x1b33=function(_0x1b33aa,_0x5f1fdc){_0x1b33aa=_0x1b33aa-0x189;let _0x3eabfe=_0x668c98[_0x1b33aa];return _0x3eabfe;},_0x1b33(_0x38af83,_0x28ffdd);}const PROVIDERS={'openai':{'name':_0x3dcaf4(0x1c0),'url':'https://api.openai.com/v1/chat/completions','models':[{'id':_0x3dcaf4(0x1c8),'name':'GPT-3.5\x20Turbo'},{'id':'gpt-4','name':_0x3dcaf4(0x1c3)},{'id':_0x3dcaf4(0x1cb),'name':_0x3dcaf4(0x229)}],'keySite':_0x3dcaf4(0x1cc)},'openrouter':{'name':_0x3dcaf4(0x1fc),'url':_0x3dcaf4(0x224),'models':[{'id':_0x3dcaf4(0x1a9),'name':'GPT-3.5\x20Turbo'},{'id':_0x3dcaf4(0x215),'name':_0x3dcaf4(0x196)},{'id':'google/gemini-pro','name':'Gemini\x20Pro'},{'id':_0x3dcaf4(0x1b6),'name':_0x3dcaf4(0x1ae)}],'keySite':_0x3dcaf4(0x212)},'google':{'name':_0x3dcaf4(0x232),'url':_0x3dcaf4(0x226),'models':[{'id':'gemini-pro','name':_0x3dcaf4(0x1a7)}],'keySite':_0x3dcaf4(0x1fb)},'anthropic':{'name':'Anthropic','url':_0x3dcaf4(0x20a),'models':[{'id':_0x3dcaf4(0x1a3),'name':_0x3dcaf4(0x217)},{'id':_0x3dcaf4(0x1f8),'name':_0x3dcaf4(0x214)}],'keySite':_0x3dcaf4(0x19c)}};function initOpenRouter(){const _0x4ac6f9=_0x3dcaf4;currentMode=_0x4ac6f9(0x1d5),currentProvider='openrouter';const _0x39e8c5=document[_0x4ac6f9(0x18a)](_0x4ac6f9(0x204)),_0x5f3436=document[_0x4ac6f9(0x18a)](_0x4ac6f9(0x202));_0x39e8c5&&_0x5f3436&&(_0x39e8c5['classList']['add']('active'),_0x5f3436['classList']['remove']('active'),_0x39e8c5[_0x4ac6f9(0x220)][_0x4ac6f9(0x216)]=_0x4ac6f9(0x1da),_0x39e8c5[_0x4ac6f9(0x220)]['boxShadow']=_0x4ac6f9(0x210),_0x5f3436[_0x4ac6f9(0x220)]['borderColor']=_0x4ac6f9(0x1ef),_0x5f3436['style'][_0x4ac6f9(0x1e3)]=_0x4ac6f9(0x1d7)),apiKeyInput['value']='',apiKeyInput[_0x4ac6f9(0x1a1)]=_0x4ac6f9(0x21d),apiKeyInput['type']=_0x4ac6f9(0x219),apiKeyInput[_0x4ac6f9(0x1ca)]=!![],providerContainer[_0x4ac6f9(0x220)][_0x4ac6f9(0x1b4)]=_0x4ac6f9(0x1d7),statusText[_0x4ac6f9(0x1fe)]=_0x4ac6f9(0x22b),updateModels(),document[_0x4ac6f9(0x18a)](_0x4ac6f9(0x1d9))[_0x4ac6f9(0x1b2)]=_0x4ac6f9(0x1ce);}function selectMode(_0x596571){const _0x36266e=_0x3dcaf4;currentMode=_0x596571,document[_0x36266e(0x19b)](_0x36266e(0x19a))[_0x36266e(0x21f)](_0x116a4e=>{const _0xafccd0=_0x36266e;_0x116a4e[_0xafccd0(0x22d)][_0xafccd0(0x1eb)](_0xafccd0(0x222)),_0x116a4e[_0xafccd0(0x220)][_0xafccd0(0x216)]=_0xafccd0(0x1ef),_0x116a4e[_0xafccd0(0x220)]['boxShadow']=_0xafccd0(0x1d7);});const _0x517e47=event['currentTarget'];_0x517e47[_0x36266e(0x22d)][_0x36266e(0x209)](_0x36266e(0x222)),_0x517e47[_0x36266e(0x220)]['borderColor']='#00d4ff',_0x517e47[_0x36266e(0x220)][_0x36266e(0x1e3)]=_0x36266e(0x210),_0x596571===_0x36266e(0x1d5)?(apiKeyInput[_0x36266e(0x1aa)]='',apiKeyInput[_0x36266e(0x1a1)]=_0x36266e(0x21d),apiKeyInput[_0x36266e(0x22f)]='password',apiKeyInput['disabled']=!![],providerContainer[_0x36266e(0x220)][_0x36266e(0x1b4)]=_0x36266e(0x1d7),currentProvider=_0x36266e(0x1d5),statusText[_0x36266e(0x1fe)]=_0x36266e(0x22b),updateModels(),document[_0x36266e(0x18a)](_0x36266e(0x1d9))[_0x36266e(0x1b2)]=_0x36266e(0x231)):(apiKeyInput[_0x36266e(0x1aa)]='',apiKeyInput['placeholder']=_0x36266e(0x199),apiKeyInput['type']=_0x36266e(0x1c7),apiKeyInput[_0x36266e(0x1ca)]=![],providerContainer[_0x36266e(0x220)][_0x36266e(0x1b4)]=_0x36266e(0x1d2),currentProvider=providerSelect[_0x36266e(0x1aa)],statusText[_0x36266e(0x1fe)]=_0x36266e(0x22a)+PROVIDERS[currentProvider][_0x36266e(0x1e2)]+')',updateModels(),document[_0x36266e(0x18a)]('.info-box')[_0x36266e(0x1b2)]=_0x36266e(0x22c)+PROVIDERS[currentProvider][_0x36266e(0x1e2)]+_0x36266e(0x228)+PROVIDERS[currentProvider][_0x36266e(0x195)]+_0x36266e(0x18e)+PROVIDERS[currentProvider]['keySite']+_0x36266e(0x1ac));}function selectProvider(){const _0x48b50d=_0x3dcaf4;currentProvider=providerSelect['value'],statusText['textContent']=_0x48b50d(0x22a)+PROVIDERS[currentProvider]['name']+')',updateModels(),document['querySelector']('.info-box')['innerHTML']=_0x48b50d(0x203)+PROVIDERS[currentProvider][_0x48b50d(0x1e2)]+_0x48b50d(0x1b5)+PROVIDERS[currentProvider]['keySite']+_0x48b50d(0x18e)+PROVIDERS[currentProvider][_0x48b50d(0x195)]+_0x48b50d(0x1df);}function updateModels(){const _0x3c221b=_0x3dcaf4,_0x36d22c=PROVIDERS[currentProvider];let _0x88bd1a='';currentMode===_0x3c221b(0x1d5)&&currentProvider==='openrouter'?_0x88bd1a=_0x36d22c[_0x3c221b(0x1d8)][_0x3c221b(0x197)](_0x30d6da=>!_0x30d6da['id'][_0x3c221b(0x1d6)](_0x3c221b(0x1f3)))[_0x3c221b(0x21e)](_0x3e7d3d=>'<option\x20value=\x22'+_0x3e7d3d['id']+'\x22>'+_0x3e7d3d['name']+_0x3c221b(0x1e9))[_0x3c221b(0x1c4)](''):_0x88bd1a=_0x36d22c[_0x3c221b(0x1d8)][_0x3c221b(0x21e)](_0x6bde54=>'<option\x20value=\x22'+_0x6bde54['id']+'\x22>'+_0x6bde54[_0x3c221b(0x1e2)]+'</option>')[_0x3c221b(0x1c4)](''),modelSelect['innerHTML']=_0x88bd1a;}function addMessage(_0xc161f8,_0x2030f9=![]){const _0x4d27dd=_0x3dcaf4,_0xcdba95=document['createElement'](_0x4d27dd(0x20c));_0xcdba95[_0x4d27dd(0x1bd)]=_0x4d27dd(0x1ab)+(_0x2030f9?_0x4d27dd(0x1a5):_0x4d27dd(0x1f7));let _0x2bbde3=_0xc161f8;!_0x2030f9&&(_0x2bbde3=formatCodeBlocks(_0xc161f8),messageCounter++,messageCount[_0x4d27dd(0x1fe)]=messageCounter),_0xcdba95['innerHTML']=_0x2bbde3,messagesDiv[_0x4d27dd(0x18f)](_0xcdba95),messagesDiv[_0x4d27dd(0x234)]=messagesDiv[_0x4d27dd(0x198)],!_0x2030f9&&setTimeout(()=>{const _0x44480c=_0xcdba95['querySelectorAll']('.code-block');_0x44480c['forEach'](_0x222ad5=>{const _0x79339f=_0x1b33,_0x3dd47f=_0x222ad5[_0x79339f(0x18a)]('.copy-btn');_0x3dd47f&&(_0x3dd47f[_0x79339f(0x1a4)]=()=>{const _0x37acf0=_0x79339f,_0x342e0d=_0x222ad5[_0x37acf0(0x18a)](_0x37acf0(0x19e))[_0x37acf0(0x1fe)];navigator[_0x37acf0(0x1f6)]['writeText'](_0x342e0d);const _0x162f82=_0x3dd47f[_0x37acf0(0x1b2)];_0x3dd47f[_0x37acf0(0x1b2)]=_0x37acf0(0x233),setTimeout(()=>_0x3dd47f[_0x37acf0(0x1b2)]=_0x162f82,0x7d0);});});},0x64);}function formatCodeBlocks(_0x1a94a9){const _0x2b2d46=_0x3dcaf4;let _0x45fd83=_0x1a94a9;const _0x215a1a=[{'lang':_0x2b2d46(0x206),'pattern':/```(javascript|js)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x1af),'pattern':/```(python|py)\s*([\s\S]*?)```/g},{'lang':'html','pattern':/```(html)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x1e4),'pattern':/```(css)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x1bf),'pattern':/```(java)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x1b1),'pattern':/```(cpp|c\+\+)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x21c),'pattern':/```(bash|sh)\s*([\s\S]*?)```/g},{'lang':'sql','pattern':/```(sql)\s*([\s\S]*?)```/g},{'lang':_0x2b2d46(0x1cf),'pattern':/```(\w+)?\s*([\s\S]*?)```/g}];_0x215a1a['forEach'](({lang:_0xc61589,pattern:_0x3efb6b})=>{const _0x112c46=_0x2b2d46;_0x45fd83=_0x45fd83[_0x112c46(0x218)](_0x3efb6b,(_0x51db13,_0x249040,_0x2cc368)=>{const _0x3417fd=_0x112c46,_0x2ffc27=_0x249040||_0xc61589;return _0x3417fd(0x1b9)+_0x2ffc27[_0x3417fd(0x223)]()+_0x3417fd(0x1b3)+escapeHtml(_0x2cc368[_0x3417fd(0x20e)]())+_0x3417fd(0x192);});}),_0x45fd83=_0x45fd83['replace'](/\n/g,_0x2b2d46(0x20f)),_0x45fd83=_0x45fd83[_0x2b2d46(0x218)](/\t/g,_0x2b2d46(0x211)),_0x45fd83=_0x45fd83['replace'](/ {4}/g,'&nbsp;&nbsp;&nbsp;&nbsp;'),_0x45fd83=_0x45fd83['replace'](/ {2}/g,_0x2b2d46(0x19f));const _0x1ae95e=/`([^`]+)`/g;return _0x45fd83=_0x45fd83[_0x2b2d46(0x218)](_0x1ae95e,_0x2b2d46(0x1dd)),_0x45fd83;}function escapeHtml(_0x5c9e93){const _0x23e090=_0x3dcaf4;return _0x5c9e93[_0x23e090(0x218)](/&/g,'&amp;')[_0x23e090(0x218)](/</g,_0x23e090(0x1b0))[_0x23e090(0x218)](/>/g,'&gt;')[_0x23e090(0x218)](/"/g,'&quot;')['replace'](/'/g,_0x23e090(0x225));}function showTyping(){const _0x19c0b5=_0x3dcaf4,_0x1ebad0=document[_0x19c0b5(0x1f4)]('div');_0x1ebad0[_0x19c0b5(0x1bd)]=_0x19c0b5(0x1e8),_0x1ebad0['id']=_0x19c0b5(0x207),_0x1ebad0['innerHTML']=_0x19c0b5(0x1cd),messagesDiv[_0x19c0b5(0x18f)](_0x1ebad0),messagesDiv['scrollTop']=messagesDiv[_0x19c0b5(0x198)];}function hideTyping(){const _0xd9fc7d=_0x3dcaf4,_0x310a36=document[_0xd9fc7d(0x19d)](_0xd9fc7d(0x207));if(_0x310a36)_0x310a36[_0xd9fc7d(0x1eb)]();}async function callAPI(_0x298170){const _0x1afce2=_0x3dcaf4,_0x25246a=apiKeyInput[_0x1afce2(0x1aa)]['trim'](),_0x229e35=currentMode===_0x1afce2(0x1d5)&&!_0x25246a?DEFAULT_KEY:_0x25246a,_0x5ba6f4=PROVIDERS[currentProvider],_0x46b436=modelSelect[_0x1afce2(0x1aa)];if(!_0x229e35)throw new Error(_0x1afce2(0x20b));statusText[_0x1afce2(0x1fe)]=_0x5ba6f4[_0x1afce2(0x1e2)]+'\x20думает...';let _0x352d04=_0x5ba6f4[_0x1afce2(0x1e1)],_0x1f8a27={'Content-Type':_0x1afce2(0x1c9)},_0x5a5838={};if(currentProvider===_0x1afce2(0x1d5))_0x1f8a27[_0x1afce2(0x18b)]='Bearer\x20'+_0x229e35,_0x1f8a27[_0x1afce2(0x213)]=window[_0x1afce2(0x1a6)][_0x1afce2(0x1db)],_0x1f8a27[_0x1afce2(0x193)]=_0x1afce2(0x21a),_0x5a5838={'model':_0x46b436,'messages':[{'role':_0x1afce2(0x1bc),'content':_0x298170}],'temperature':0.7,'max_tokens':0x7d0};else{if(currentProvider===_0x1afce2(0x22e))_0x1f8a27[_0x1afce2(0x18b)]='Bearer\x20'+_0x229e35,_0x5a5838={'model':_0x46b436,'messages':[{'role':_0x1afce2(0x1bc),'content':_0x298170}],'temperature':0.7,'max_tokens':0x7d0};else{if(currentProvider===_0x1afce2(0x190))_0x352d04=_0x1afce2(0x201)+_0x46b436+_0x1afce2(0x1fd)+_0x229e35,_0x5a5838={'contents':[{'parts':[{'text':_0x298170}]}]};else currentProvider===_0x1afce2(0x1c6)&&(_0x1f8a27['x-api-key']=_0x229e35,_0x1f8a27[_0x1afce2(0x1e7)]=_0x1afce2(0x1d4),_0x5a5838={'model':_0x46b436,'max_tokens':0x7d0,'messages':[{'role':_0x1afce2(0x1bc),'content':_0x298170}]});}}const _0x4c2ddc=await fetch(_0x352d04,{'method':_0x1afce2(0x1ea),'headers':_0x1f8a27,'body':JSON['stringify'](_0x5a5838)});if(!_0x4c2ddc['ok']){const _0x4b4ee6=await _0x4c2ddc[_0x1afce2(0x1d1)]()['catch'](()=>({}));if(_0x4c2ddc[_0x1afce2(0x1d3)]===0x191)throw new Error(_0x1afce2(0x191));if(_0x4c2ddc['status']===0x1ad)throw new Error(_0x1afce2(0x1ff));throw new Error(_0x4b4ee6[_0x1afce2(0x1dc)]?.[_0x1afce2(0x1b8)]||_0x1afce2(0x1f9)+_0x4c2ddc[_0x1afce2(0x1d3)]+':\x20'+JSON[_0x1afce2(0x1be)](_0x4b4ee6));}const _0x269fcf=await _0x4c2ddc['json']();if(currentProvider===_0x1afce2(0x1d5)||currentProvider===_0x1afce2(0x22e))return totalTokens+=_0x269fcf['usage']?.[_0x1afce2(0x1e6)]||0x0,tokenCount['textContent']=totalTokens,_0x269fcf['choices'][0x0][_0x1afce2(0x1b8)][_0x1afce2(0x1ad)];else{if(currentProvider===_0x1afce2(0x190))return _0x269fcf[_0x1afce2(0x1e0)][0x0][_0x1afce2(0x1ad)][_0x1afce2(0x194)][0x0][_0x1afce2(0x1c7)];else{if(currentProvider==='anthropic')return _0x269fcf[_0x1afce2(0x1ad)][0x0]['text'];}}return _0x1afce2(0x1de);}async function sendMessage(){const _0xc60f14=_0x3dcaf4,_0x3d056f=userInput[_0xc60f14(0x1aa)][_0xc60f14(0x20e)]();if(!_0x3d056f)return;addMessage(_0x3d056f,!![]),userInput['value']='',sendButton['disabled']=!![],userInput[_0xc60f14(0x220)][_0xc60f14(0x1ee)]=_0xc60f14(0x1e5),showTyping();try{const _0x3c1cf7=await callAPI(_0x3d056f);hideTyping(),addMessage(_0x3c1cf7,![]),statusText[_0xc60f14(0x1fe)]=_0xc60f14(0x22a)+PROVIDERS[currentProvider][_0xc60f14(0x1e2)]+')';}catch(_0x3a3905){hideTyping(),addMessage('<span\x20style=\x22color:#ff5555\x22>❌\x20Ошибка\x20'+PROVIDERS[currentProvider][_0xc60f14(0x1e2)]+_0xc60f14(0x1bb)+_0x3a3905[_0xc60f14(0x1b8)],![]),statusText[_0xc60f14(0x1fe)]=_0xc60f14(0x1a8);}sendButton[_0xc60f14(0x1ca)]=![],userInput[_0xc60f14(0x20d)]();}userInput['addEventListener'](_0x3dcaf4(0x1f0),_0x294a00=>{const _0x56258f=_0x3dcaf4;if(_0x294a00[_0x56258f(0x1c1)]==='Enter'&&!_0x294a00[_0x56258f(0x1ed)]){_0x294a00[_0x56258f(0x1a2)]();if(!sendButton[_0x56258f(0x1ca)])sendMessage();}}),userInput[_0x3dcaf4(0x1ec)]('input',()=>{const _0x4062ae=_0x3dcaf4;userInput[_0x4062ae(0x220)]['height']=_0x4062ae(0x230),userInput['style'][_0x4062ae(0x1ee)]=Math[_0x4062ae(0x205)](userInput['scrollHeight'],0x78)+'px';}),window[_0x3dcaf4(0x1ec)](_0x3dcaf4(0x1b7),()=>{initOpenRouter(),userInput['focus']();});
+const DEFAULT_KEY = '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';
+
+const messagesDiv = document.getElementById('messages');
+const userInput = document.getElementById('userInput');
+const sendButton = document.getElementById('sendButton');
+const apiKeyInput = document.getElementById('apiKey');
+const providerSelect = document.getElementById('providerSelect');
+const modelSelect = document.getElementById('modelSelect');
+const tokenCount = document.getElementById('tokenCount');
+const messageCount = document.getElementById('messageCount');
+const statusText = document.getElementById('statusText');
+const providerContainer = document.getElementById('providerContainer');
+
+let totalTokens = 0;
+let messageCounter = 1;
+let currentMode = 'openrouter';
+let currentProvider = 'openrouter';
+
+const PROVIDERS = {
+    openai: {
+        name: 'OpenAI',
+        url: 'https://api.openai.com/v1/chat/completions',
+        models: [
+            {id: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
+            {id: 'gpt-4', name: 'GPT-4'},
+            {id: 'gpt-4-turbo', name: 'GPT-4 Turbo'}
+        ],
+        keySite: 'https://platform.openai.com'
+    },
+    openrouter: {
+        name: 'OpenRouter',
+        url: 'https://openrouter.ai/api/v1/chat/completions',
+        models: [
+            {id: 'openai/gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
+            {id: 'meta-llama/llama-3.1-70b-instruct', name: 'Llama 3.1 70B'},
+            {id: 'google/gemini-pro', name: 'Gemini Pro'},
+            {id: 'anthropic/claude-2', name: 'Claude 2'}
+        ],
+        keySite: 'https://openrouter.ai'
+    },
+    google: {
+        name: 'Google AI',
+        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
+        models: [
+            {id: 'gemini-pro', name: 'Gemini Pro'}
+        ],
+        keySite: 'https://makersuite.google.com'
+    },
+    anthropic: {
+        name: 'Anthropic',
+        url: 'https://api.anthropic.com/v1/messages',
+        models: [
+            {id: 'claude-3-haiku-20240307', name: 'Claude 3 Haiku'},
+            {id: 'claude-3-sonnet-20240229', name: 'Claude 3 Sonnet'}
+        ],
+        keySite: 'https://console.anthropic.com'
+    }
+};
+
+function initOpenRouter() {
+    currentMode = 'openrouter';
+    currentProvider = 'openrouter';
+    
+    const openrouterOption = document.querySelector('.ai-option[onclick*="openrouter"]');
+    const customOption = document.querySelector('.ai-option[onclick*="custom"]');
+    
+    if (openrouterOption && customOption) {
+        openrouterOption.classList.add('active');
+        customOption.classList.remove('active');
+        openrouterOption.style.borderColor = '#00d4ff';
+        openrouterOption.style.boxShadow = '0 0 15px rgba(0, 212, 255, 0.3)';
+        customOption.style.borderColor = 'rgba(0, 212, 255, 0.3)';
+        customOption.style.boxShadow = 'none';
+    }
+    
+    apiKeyInput.value = '';
+    apiKeyInput.placeholder = 'Используется готовый ключ OpenRouter';
+    apiKeyInput.type = 'password';
+    apiKeyInput.disabled = true;
+    providerContainer.style.display = 'none';
+    statusText.textContent = 'Готов (OpenRouter)';
+    
+    updateModels();
+    
+    document.querySelector('.info-box').innerHTML = `
+        📍 <strong>Готовый OpenRouter</strong><br>
+        🔗 <a href="https://openrouter.ai" target="_blank">openrouter.ai</a><br>
+        🆓 10к токенов бесплатно в день<br>
+        ⚡ Ключ уже вставлен в код
+    `;
+}
+
+function selectMode(mode) {
+    currentMode = mode;
+    
+    document.querySelectorAll('.ai-option').forEach(opt => {
+        opt.classList.remove('active');
+        opt.style.borderColor = 'rgba(0, 212, 255, 0.3)';
+        opt.style.boxShadow = 'none';
+    });
+    
+    const selectedOption = event.currentTarget;
+    selectedOption.classList.add('active');
+    selectedOption.style.borderColor = '#00d4ff';
+    selectedOption.style.boxShadow = '0 0 15px rgba(0, 212, 255, 0.3)';
+    
+    if (mode === 'openrouter') {
+        apiKeyInput.value = '';
+        apiKeyInput.placeholder = 'Используется готовый ключ OpenRouter';
+        apiKeyInput.type = 'password';
+        apiKeyInput.disabled = true;
+        providerContainer.style.display = 'none';
+        currentProvider = 'openrouter';
+        statusText.textContent = 'Готов (OpenRouter)';
+        
+        updateModels();
+        
+        document.querySelector('.info-box').innerHTML = `
+            📍 <strong>Готовый OpenRouter</strong><br>
+            🔗 <a href="https://openrouter.ai" target="_blank">openrouter.ai</a><br>
+            🆓 10к токенов бесплатно в день<br>
+            ⚡ Ключ уже вставлен в код
+        `;
+        
+    } else {
+        apiKeyInput.value = '';
+        apiKeyInput.placeholder = 'Вставь ключ с выбранного сайта';
+        apiKeyInput.type = 'text';
+        apiKeyInput.disabled = false;
+        providerContainer.style.display = 'block';
+        currentProvider = providerSelect.value;
+        statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
+        
+        updateModels();
+        
+        document.querySelector('.info-box').innerHTML = `
+            📍 <strong>Свой ключ с ${PROVIDERS[currentProvider].name}</strong><br>
+            🔗 Получи ключ: <a href="${PROVIDERS[currentProvider].keySite}" target="_blank">${PROVIDERS[currentProvider].keySite}</a><br>
+            ⚡ Вставь ключ в поле выше<br>
+            📋 Выбери модель из списка
+        `;
+    }
+}
+
+function selectProvider() {
+    currentProvider = providerSelect.value;
+    statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
+    updateModels();
+    
+    document.querySelector('.info-box').innerHTML = `
+        📍 <strong>Свой ключ с ${PROVIDERS[currentProvider].name}</strong><br>
+        🔗 Получи ключ: <a href="${PROVIDERS[currentProvider].keySite}" target="_blank">${PROVIDERS[currentProvider].keySite}</a><br>
+        ⚡ Вставь ключ в поле выше<br>
+        📋 Выбери модель из списка
+    `;
+}
+
+function updateModels() {
+    const provider = PROVIDERS[currentProvider];
+    let modelsHtml = '';
+    
+    if (currentMode === 'openrouter' && currentProvider === 'openrouter') {
+        modelsHtml = provider.models
+            .filter(model => !model.id.includes('gpt-4'))
+            .map(model => `<option value="${model.id}">${model.name}</option>`)
+            .join('');
+    } else {
+        modelsHtml = provider.models.map(model => 
+            `<option value="${model.id}">${model.name}</option>`
+        ).join('');
+    }
+    
+    modelSelect.innerHTML = modelsHtml;
+}
+
+function addMessage(text, isUser = false) {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${isUser ? 'user-message' : 'ai-message'}`;
+    
+    let content = text;
+    if (!isUser) {
+        content = formatCodeBlocks(text);
+        messageCounter++;
+        messageCount.textContent = messageCounter;
+    }
+    
+    messageDiv.innerHTML = content;
+    messagesDiv.appendChild(messageDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    
+    if (!isUser) {
+        setTimeout(() => {
+            const codeBlocks = messageDiv.querySelectorAll('.code-block');
+            codeBlocks.forEach(block => {
+                const copyBtn = block.querySelector('.copy-btn');
+                if (copyBtn) {
+                    copyBtn.onclick = () => {
+                        const code = block.querySelector('code').textContent;
+                        navigator.clipboard.writeText(code);
+                        const originalText = copyBtn.innerHTML;
+                        copyBtn.innerHTML = '<span>✓ Скопировано</span>';
+                        setTimeout(() => copyBtn.innerHTML = originalText, 2000);
+                    };
+                }
+            });
+        }, 100);
+    }
+}
+
+function formatCodeBlocks(text) {
+    let result = text;
+    
+    const codePatterns = [
+        {lang: 'javascript', pattern: /```(javascript|js)\s*([\s\S]*?)```/g},
+        {lang: 'python', pattern: /```(python|py)\s*([\s\S]*?)```/g},
+        {lang: 'html', pattern: /```(html)\s*([\s\S]*?)```/g},
+        {lang: 'css', pattern: /```(css)\s*([\s\S]*?)```/g},
+        {lang: 'java', pattern: /```(java)\s*([\s\S]*?)```/g},
+        {lang: 'cpp', pattern: /```(cpp|c\+\+)\s*([\s\S]*?)```/g},
+        {lang: 'bash', pattern: /```(bash|sh)\s*([\s\S]*?)```/g},
+        {lang: 'sql', pattern: /```(sql)\s*([\s\S]*?)```/g},
+        {lang: 'generic', pattern: /```(\w+)?\s*([\s\S]*?)```/g}
+    ];
+    
+    codePatterns.forEach(({lang, pattern}) => {
+        result = result.replace(pattern, (match, langName, code) => {
+            const language = langName || lang;
+            return `<div class="code-block">
+                <div class="code-header">
+                    <div class="code-language">${language.toUpperCase()}</div>
+                    <button class="copy-btn">📋 Копировать</button>
+                </div>
+                <pre><code>${escapeHtml(code.trim())}</code></pre>
+            </div>`;
+        });
+    });
+    
+    result = result.replace(/\n/g, '<br>');
+    result = result.replace(/\t/g, '    ');
+    result = result.replace(/ {4}/g, '&nbsp;&nbsp;&nbsp;&nbsp;');
+    result = result.replace(/ {2}/g, '&nbsp;&nbsp;');
+    
+    const inlineCodePattern = /`([^`]+)`/g;
+    result = result.replace(inlineCodePattern, '<code class="inline-code">$1</code>');
+    
+    return result;
+}
+
+function escapeHtml(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+function showTyping() {
+    const typingDiv = document.createElement('div');
+    typingDiv.className = 'typing-indicator';
+    typingDiv.id = 'typingIndicator';
+    typingDiv.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+    messagesDiv.appendChild(typingDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+function hideTyping() {
+    const typing = document.getElementById('typingIndicator');
+    if (typing) typing.remove();
+}
+
+async function callAPI(prompt) {
+    const userKey = apiKeyInput.value.trim();
+    const apiKey = currentMode === 'openrouter' && !userKey ? DEFAULT_KEY : userKey;
+    const provider = PROVIDERS[currentProvider];
+    const model = modelSelect.value;
+    
+    if (!apiKey) throw new Error('Вставь API ключ в поле слева');
+    
+    statusText.textContent = `${provider.name} думает...`;
+    
+    let url = provider.url;
+    let headers = { 'Content-Type': 'application/json' };
+    let body = {};
+    
+    if (currentProvider === 'openrouter') {
+        headers['Authorization'] = `Bearer ${apiKey}`;
+        headers['HTTP-Referer'] = window.location.href;
+        headers['X-Title'] = 'AI Code Chat';
+        body = {
+            model: model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+            max_tokens: 2000
+        };
+    }
+    else if (currentProvider === 'openai') {
+        headers['Authorization'] = `Bearer ${apiKey}`;
+        body = {
+            model: model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+            max_tokens: 2000
+        };
+    }
+    else if (currentProvider === 'google') {
+        url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+        body = {
+            contents: [{ parts: [{ text: prompt }] }]
+        };
+    }
+    else if (currentProvider === 'anthropic') {
+        headers['x-api-key'] = apiKey;
+        headers['anthropic-version'] = '2023-06-01';
+        body = {
+            model: model,
+            max_tokens: 2000,
+            messages: [{ role: 'user', content: prompt }]
+        };
+    }
+    
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(body)
+    });
+    
+    if (!response.ok) {
+        const error = await response.json().catch(() => ({}));
+        if (response.status === 401) throw new Error('Неверный API ключ');
+        if (response.status === 429) throw new Error('Лимит токенов исчерпан');
+        throw new Error(error.error?.message || `Ошибка ${response.status}: ${JSON.stringify(error)}`);
+    }
+    
+    const data = await response.json();
+    
+    if (currentProvider === 'openrouter' || currentProvider === 'openai') {
+        totalTokens += data.usage?.total_tokens || 0;
+        tokenCount.textContent = totalTokens;
+        return data.choices[0].message.content;
+    }
+    else if (currentProvider === 'google') {
+        return data.candidates[0].content.parts[0].text;
+    }
+    else if (currentProvider === 'anthropic') {
+        return data.content[0].text;
+    }
+    
+    return 'Ошибка: неизвестный формат ответа';
+}
+
+async function sendMessage() {
+    const message = userInput.value.trim();
+    if (!message) return;
+    
+    addMessage(message, true);
+    userInput.value = '';
+    sendButton.disabled = true;
+    userInput.style.height = '60px';
+    
+    showTyping();
+    
+    try {
+        const aiResponse = await callAPI(message);
+        hideTyping();
+        addMessage(aiResponse, false);
+        statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
+    } catch (error) {
+        hideTyping();
+        addMessage(`<span style="color:#ff5555">❌ Ошибка ${PROVIDERS[currentProvider].name}:</span> ${error.message}`, false);
+        statusText.textContent = 'Ошибка';
+    }
+    
+    sendButton.disabled = false;
+    userInput.focus();
+}
+
+userInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        if (!sendButton.disabled) sendMessage();
+    }
+});
+
+userInput.addEventListener('input', () => {
+    userInput.style.height = 'auto';
+    userInput.style.height = Math.min(userInput.scrollHeight, 120) + 'px';
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    initOpenRouter();
+    userInput.focus();
+});
