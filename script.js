@@ -1,1 +1,284 @@
-function _0x2fe3(){const _0x126e69=['location','providerSelect','scrollHeight','type','user','.code-block','active','</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Вставь\x20ключ\x20в\x20поле\x20выше<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20📋\x20Выбери\x20модель\x20из\x20списка\x0a\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22copy-btn\x22>📋\x20Копировать</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<pre><code>','sendButton','919142EMwjqG','code','trim','rgba(0,\x20212,\x20255,\x200.3)','https://makersuite.google.com','.ai-option[onclick*=\x22openrouter\x22]','Лимит\x20токенов\x20исчерпан','.ai-option','text','.info-box','openai/gpt-3.5-turbo','Ошибка:\x20неизвестный\x20формат\x20ответа','https://api.anthropic.com/v1/messages','0\x200\x2015px\x20rgba(0,\x20212,\x20255,\x200.3)','<code\x20class=\x22inline-code\x22>$1</code>','Google\x20AI','2160512XyESSx',':generateContent?key=','anthropic','onclick','google/gemini-pro','borderColor','Bearer\x20','google','join','<span\x20style=\x22color:#ff5555\x22>❌\x20Ошибка\x20','message\x20','typingIndicator','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Готовый\x20OpenRouter</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20<a\x20href=\x22https://openrouter.ai\x22\x20target=\x22_blank\x22>openrouter.ai</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🆓\x2010к\x20токенов\x20бесплатно\x20в\x20день<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Ключ\x20уже\x20вставлен\x20в\x20код\x0a\x20\x20\x20\x20\x20\x20\x20\x20','name','message','2444862QEvYUc','\x20думает...','none','javascript','6122562DkwkEs','keydown','claude-3-haiku-20240307','stringify','keySite','</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Вставь\x20ключ\x20в\x20поле\x20выше<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📋\x20Выбери\x20модель\x20из\x20списка\x0a\x20\x20\x20\x20\x20\x20\x20\x20','min','toUpperCase','key','display','2539401hjuNSO','Claude\x203\x20Haiku','total_tokens','remove','block','messageCount','userInput','Готов\x20(','parts','generic','openrouter','1yTHpda','Enter','focus','#00d4ff','application/json','user-message','https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent','openai','classList','apiKey','css','className','<div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div>','gpt-4','content','claude-3-sonnet-20240229','shiftKey','disabled','value','bash','https://openrouter.ai','java','placeholder','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Свой\x20ключ\x20с\x20','&quot;',':</span>\x20','Вставь\x20API\x20ключ\x20в\x20поле\x20слева','ai-message','json','replace','<option\x20value=\x22','innerHTML','password','currentTarget','2023-06-01','preventDefault','querySelectorAll','status','OpenRouter','tokenCount','url','Используется\x20готовый\x20ключ\x20OpenRouter','</code></pre>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','60px','candidates','.ai-option[onclick*=\x22custom\x22]','querySelector','\x0a\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Готовый\x20OpenRouter</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20<a\x20href=\x22https://openrouter.ai\x22\x20target=\x22_blank\x22>openrouter.ai</a><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🆓\x2010к\x20токенов\x20бесплатно\x20в\x20день<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Ключ\x20уже\x20вставлен\x20в\x20код\x0a\x20\x20\x20\x20','Вставь\x20ключ\x20с\x20выбранного\x20сайта','34052288jGIMuk','includes','textContent','boxShadow','map','Готов\x20(OpenRouter)','Ошибка\x20','2081725WvZROI','<div\x20class=\x22code-block\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-language\x22>','AI\x20Code\x20Chat','style','href','\x22\x20target=\x22_blank\x22>','usage','</option>','Llama\x203.1\x2070B','Authorization','&amp;','html','catch','<br>','appendChild','</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20Получи\x20ключ:\x20<a\x20href=\x22','DOMContentLoaded','\x20\x20\x20\x20','X-Title','addEventListener','GPT-4','anthropic/claude-2','auto','height','getElementById','meta-llama/llama-3.1-70b-instruct','add','forEach','filter','scrollTop','div','clipboard','gpt-3.5-turbo','createElement','modelSelect','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','error','https://console.anthropic.com','&nbsp;&nbsp;','Gemini\x20Pro','GPT-3.5\x20Turbo'];_0x2fe3=function(){return _0x126e69;};return _0x2fe3();}const _0x397852=_0x21d4;(function(_0x160860,_0x34af72){const _0x187ecb=_0x21d4,_0x525d6e=_0x160860();while(!![]){try{const _0x3caac9=-parseInt(_0x187ecb(0x1b0))/0x1*(parseInt(_0x187ecb(0x178))/0x2)+-parseInt(_0x187ecb(0x1a5))/0x3+-parseInt(_0x187ecb(0x188))/0x4+-parseInt(_0x187ecb(0x1e8))/0x5+-parseInt(_0x187ecb(0x19b))/0x6+-parseInt(_0x187ecb(0x197))/0x7+parseInt(_0x187ecb(0x1e1))/0x8;if(_0x3caac9===_0x34af72)break;else _0x525d6e['push'](_0x525d6e['shift']());}catch(_0x453aac){_0x525d6e['push'](_0x525d6e['shift']());}}}(_0x2fe3,0x986cc));const DEFAULT_KEY=_0x397852(0x168),messagesDiv=document['getElementById']('messages'),userInput=document[_0x397852(0x15d)](_0x397852(0x1ab)),sendButton=document[_0x397852(0x15d)](_0x397852(0x177)),apiKeyInput=document[_0x397852(0x15d)](_0x397852(0x1b9)),providerSelect=document[_0x397852(0x15d)](_0x397852(0x16f)),modelSelect=document['getElementById'](_0x397852(0x167)),tokenCount=document[_0x397852(0x15d)](_0x397852(0x1d7)),messageCount=document[_0x397852(0x15d)](_0x397852(0x1aa)),statusText=document['getElementById']('statusText'),providerContainer=document[_0x397852(0x15d)]('providerContainer');let totalTokens=0x0,messageCounter=0x1,currentMode=_0x397852(0x1af),currentProvider=_0x397852(0x1af);const PROVIDERS={'openai':{'name':'OpenAI','url':'https://api.openai.com/v1/chat/completions','models':[{'id':_0x397852(0x165),'name':_0x397852(0x16d)},{'id':'gpt-4','name':_0x397852(0x1fc)},{'id':'gpt-4-turbo','name':'GPT-4\x20Turbo'}],'keySite':'https://platform.openai.com'},'openrouter':{'name':_0x397852(0x1d6),'url':'https://openrouter.ai/api/v1/chat/completions','models':[{'id':_0x397852(0x182),'name':'GPT-3.5\x20Turbo'},{'id':_0x397852(0x15e),'name':_0x397852(0x1f0)},{'id':_0x397852(0x18c),'name':_0x397852(0x16c)},{'id':_0x397852(0x1fd),'name':'Claude\x202'}],'keySite':_0x397852(0x1c4)},'google':{'name':_0x397852(0x187),'url':_0x397852(0x1b6),'models':[{'id':'gemini-pro','name':'Gemini\x20Pro'}],'keySite':_0x397852(0x17c)},'anthropic':{'name':'Anthropic','url':_0x397852(0x184),'models':[{'id':_0x397852(0x19d),'name':_0x397852(0x1a6)},{'id':_0x397852(0x1bf),'name':'Claude\x203\x20Sonnet'}],'keySite':_0x397852(0x16a)}};function initOpenRouter(){const _0x5deaca=_0x397852;currentMode=_0x5deaca(0x1af),currentProvider=_0x5deaca(0x1af);const _0x33f0f4=document[_0x5deaca(0x1de)](_0x5deaca(0x17d)),_0x2e6bd2=document[_0x5deaca(0x1de)](_0x5deaca(0x1dd));_0x33f0f4&&_0x2e6bd2&&(_0x33f0f4['classList']['add']('active'),_0x2e6bd2[_0x5deaca(0x1b8)][_0x5deaca(0x1a8)](_0x5deaca(0x174)),_0x33f0f4['style']['borderColor']=_0x5deaca(0x1b3),_0x33f0f4[_0x5deaca(0x1eb)][_0x5deaca(0x1e4)]=_0x5deaca(0x185),_0x2e6bd2[_0x5deaca(0x1eb)][_0x5deaca(0x18d)]=_0x5deaca(0x17b),_0x2e6bd2[_0x5deaca(0x1eb)][_0x5deaca(0x1e4)]=_0x5deaca(0x199)),apiKeyInput[_0x5deaca(0x1c2)]='',apiKeyInput[_0x5deaca(0x1c6)]=_0x5deaca(0x1d9),apiKeyInput[_0x5deaca(0x171)]='password',apiKeyInput[_0x5deaca(0x1c1)]=!![],providerContainer['style'][_0x5deaca(0x1a4)]='none',statusText['textContent']=_0x5deaca(0x1e6),updateModels(),document[_0x5deaca(0x1de)](_0x5deaca(0x181))[_0x5deaca(0x1cf)]=_0x5deaca(0x1df);}function _0x21d4(_0x2fa44d,_0x2b7590){const _0x2fe3c4=_0x2fe3();return _0x21d4=function(_0x21d4fe,_0x407405){_0x21d4fe=_0x21d4fe-0x15b;let _0x54feda=_0x2fe3c4[_0x21d4fe];return _0x54feda;},_0x21d4(_0x2fa44d,_0x2b7590);}function selectMode(_0x1486f7){const _0x144d01=_0x397852;currentMode=_0x1486f7,document[_0x144d01(0x1d4)](_0x144d01(0x17f))['forEach'](_0x31243c=>{const _0x4910dc=_0x144d01;_0x31243c['classList']['remove'](_0x4910dc(0x174)),_0x31243c[_0x4910dc(0x1eb)][_0x4910dc(0x18d)]=_0x4910dc(0x17b),_0x31243c['style'][_0x4910dc(0x1e4)]=_0x4910dc(0x199);});const _0x45318d=event[_0x144d01(0x1d1)];_0x45318d[_0x144d01(0x1b8)][_0x144d01(0x15f)]('active'),_0x45318d[_0x144d01(0x1eb)][_0x144d01(0x18d)]=_0x144d01(0x1b3),_0x45318d['style']['boxShadow']='0\x200\x2015px\x20rgba(0,\x20212,\x20255,\x200.3)',_0x1486f7==='openrouter'?(apiKeyInput['value']='',apiKeyInput[_0x144d01(0x1c6)]=_0x144d01(0x1d9),apiKeyInput[_0x144d01(0x171)]=_0x144d01(0x1d0),apiKeyInput['disabled']=!![],providerContainer[_0x144d01(0x1eb)][_0x144d01(0x1a4)]=_0x144d01(0x199),currentProvider=_0x144d01(0x1af),statusText[_0x144d01(0x1e3)]='Готов\x20(OpenRouter)',updateModels(),document['querySelector']('.info-box')[_0x144d01(0x1cf)]=_0x144d01(0x194)):(apiKeyInput[_0x144d01(0x1c2)]='',apiKeyInput[_0x144d01(0x1c6)]=_0x144d01(0x1e0),apiKeyInput[_0x144d01(0x171)]=_0x144d01(0x180),apiKeyInput[_0x144d01(0x1c1)]=![],providerContainer[_0x144d01(0x1eb)][_0x144d01(0x1a4)]=_0x144d01(0x1a9),currentProvider=providerSelect[_0x144d01(0x1c2)],statusText[_0x144d01(0x1e3)]=_0x144d01(0x1ac)+PROVIDERS[currentProvider][_0x144d01(0x195)]+')',updateModels(),document[_0x144d01(0x1de)](_0x144d01(0x181))[_0x144d01(0x1cf)]=_0x144d01(0x1c7)+PROVIDERS[currentProvider]['name']+'</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔗\x20Получи\x20ключ:\x20<a\x20href=\x22'+PROVIDERS[currentProvider][_0x144d01(0x19f)]+'\x22\x20target=\x22_blank\x22>'+PROVIDERS[currentProvider]['keySite']+_0x144d01(0x1a0));}function selectProvider(){const _0x34632a=_0x397852;currentProvider=providerSelect[_0x34632a(0x1c2)],statusText[_0x34632a(0x1e3)]='Готов\x20('+PROVIDERS[currentProvider]['name']+')',updateModels(),document['querySelector'](_0x34632a(0x181))['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20📍\x20<strong>Свой\x20ключ\x20с\x20'+PROVIDERS[currentProvider][_0x34632a(0x195)]+_0x34632a(0x1f7)+PROVIDERS[currentProvider][_0x34632a(0x19f)]+_0x34632a(0x1ed)+PROVIDERS[currentProvider][_0x34632a(0x19f)]+_0x34632a(0x175);}function updateModels(){const _0x3ec2e8=_0x397852,_0x565af5=PROVIDERS[currentProvider];let _0xd13832='';currentMode==='openrouter'&&currentProvider===_0x3ec2e8(0x1af)?_0xd13832=_0x565af5['models'][_0x3ec2e8(0x161)](_0x2cc503=>!_0x2cc503['id'][_0x3ec2e8(0x1e2)](_0x3ec2e8(0x1bd)))[_0x3ec2e8(0x1e5)](_0x227b0b=>_0x3ec2e8(0x1ce)+_0x227b0b['id']+'\x22>'+_0x227b0b['name']+_0x3ec2e8(0x1ef))[_0x3ec2e8(0x190)](''):_0xd13832=_0x565af5['models'][_0x3ec2e8(0x1e5)](_0x98c007=>_0x3ec2e8(0x1ce)+_0x98c007['id']+'\x22>'+_0x98c007[_0x3ec2e8(0x195)]+'</option>')[_0x3ec2e8(0x190)](''),modelSelect['innerHTML']=_0xd13832;}function addMessage(_0x17cbf7,_0x57bae2=![]){const _0x1e2691=_0x397852,_0x54e7f3=document['createElement']('div');_0x54e7f3[_0x1e2691(0x1bb)]=_0x1e2691(0x192)+(_0x57bae2?_0x1e2691(0x1b5):_0x1e2691(0x1cb));let _0x4ba20c=_0x17cbf7;!_0x57bae2&&(_0x4ba20c=formatCodeBlocks(_0x17cbf7),messageCounter++,messageCount['textContent']=messageCounter),_0x54e7f3[_0x1e2691(0x1cf)]=_0x4ba20c,messagesDiv[_0x1e2691(0x1f6)](_0x54e7f3),messagesDiv[_0x1e2691(0x162)]=messagesDiv[_0x1e2691(0x170)],!_0x57bae2&&setTimeout(()=>{const _0x431e6d=_0x1e2691,_0x46a79c=_0x54e7f3[_0x431e6d(0x1d4)](_0x431e6d(0x173));_0x46a79c[_0x431e6d(0x160)](_0x58aae4=>{const _0x521fd3=_0x431e6d,_0x25be84=_0x58aae4[_0x521fd3(0x1de)]('.copy-btn');_0x25be84&&(_0x25be84[_0x521fd3(0x18b)]=()=>{const _0x50492a=_0x521fd3,_0x4d5f6b=_0x58aae4['querySelector'](_0x50492a(0x179))[_0x50492a(0x1e3)];navigator[_0x50492a(0x164)]['writeText'](_0x4d5f6b);const _0x2907a7=_0x25be84[_0x50492a(0x1cf)];_0x25be84[_0x50492a(0x1cf)]='<span>✓\x20Скопировано</span>',setTimeout(()=>_0x25be84['innerHTML']=_0x2907a7,0x7d0);});});},0x64);}function formatCodeBlocks(_0x25cdca){const _0x59ba80=_0x397852;let _0x28f966=_0x25cdca;const _0x1e85d1=[{'lang':_0x59ba80(0x19a),'pattern':/```(javascript|js)\s*([\s\S]*?)```/g},{'lang':'python','pattern':/```(python|py)\s*([\s\S]*?)```/g},{'lang':_0x59ba80(0x1f3),'pattern':/```(html)\s*([\s\S]*?)```/g},{'lang':_0x59ba80(0x1ba),'pattern':/```(css)\s*([\s\S]*?)```/g},{'lang':_0x59ba80(0x1c5),'pattern':/```(java)\s*([\s\S]*?)```/g},{'lang':'cpp','pattern':/```(cpp|c\+\+)\s*([\s\S]*?)```/g},{'lang':_0x59ba80(0x1c3),'pattern':/```(bash|sh)\s*([\s\S]*?)```/g},{'lang':'sql','pattern':/```(sql)\s*([\s\S]*?)```/g},{'lang':_0x59ba80(0x1ae),'pattern':/```(\w+)?\s*([\s\S]*?)```/g}];_0x1e85d1['forEach'](({lang:_0x1941d8,pattern:_0xc00dd2})=>{_0x28f966=_0x28f966['replace'](_0xc00dd2,(_0x436181,_0x681c9e,_0x4d86bf)=>{const _0x474770=_0x21d4,_0x1d1cad=_0x681c9e||_0x1941d8;return _0x474770(0x1e9)+_0x1d1cad[_0x474770(0x1a2)]()+_0x474770(0x176)+escapeHtml(_0x4d86bf['trim']())+_0x474770(0x1da);});}),_0x28f966=_0x28f966[_0x59ba80(0x1cd)](/\n/g,_0x59ba80(0x1f5)),_0x28f966=_0x28f966['replace'](/\t/g,_0x59ba80(0x1f9)),_0x28f966=_0x28f966[_0x59ba80(0x1cd)](/ {4}/g,'&nbsp;&nbsp;&nbsp;&nbsp;'),_0x28f966=_0x28f966[_0x59ba80(0x1cd)](/ {2}/g,_0x59ba80(0x16b));const _0x26c04c=/`([^`]+)`/g;return _0x28f966=_0x28f966[_0x59ba80(0x1cd)](_0x26c04c,_0x59ba80(0x186)),_0x28f966;}function escapeHtml(_0xa32665){const _0x2778bc=_0x397852;return _0xa32665[_0x2778bc(0x1cd)](/&/g,_0x2778bc(0x1f2))[_0x2778bc(0x1cd)](/</g,'&lt;')['replace'](/>/g,'&gt;')[_0x2778bc(0x1cd)](/"/g,_0x2778bc(0x1c8))[_0x2778bc(0x1cd)](/'/g,'&#039;');}function showTyping(){const _0x40d6b5=_0x397852,_0x424412=document[_0x40d6b5(0x166)](_0x40d6b5(0x163));_0x424412[_0x40d6b5(0x1bb)]='typing-indicator',_0x424412['id']=_0x40d6b5(0x193),_0x424412[_0x40d6b5(0x1cf)]=_0x40d6b5(0x1bc),messagesDiv[_0x40d6b5(0x1f6)](_0x424412),messagesDiv[_0x40d6b5(0x162)]=messagesDiv[_0x40d6b5(0x170)];}function hideTyping(){const _0x3b0336=_0x397852,_0x124b35=document[_0x3b0336(0x15d)](_0x3b0336(0x193));if(_0x124b35)_0x124b35['remove']();}async function callAPI(_0x3b1e42){const _0x1f5565=_0x397852,_0x1d2908=apiKeyInput[_0x1f5565(0x1c2)][_0x1f5565(0x17a)](),_0x186f4e=currentMode===_0x1f5565(0x1af)&&!_0x1d2908?DEFAULT_KEY:_0x1d2908,_0xe0cc24=PROVIDERS[currentProvider],_0x254551=modelSelect[_0x1f5565(0x1c2)];if(!_0x186f4e)throw new Error(_0x1f5565(0x1ca));statusText[_0x1f5565(0x1e3)]=_0xe0cc24[_0x1f5565(0x195)]+_0x1f5565(0x198);let _0x4a7d44=_0xe0cc24[_0x1f5565(0x1d8)],_0x4e2236={'Content-Type':_0x1f5565(0x1b4)},_0x50e49f={};if(currentProvider===_0x1f5565(0x1af))_0x4e2236[_0x1f5565(0x1f1)]=_0x1f5565(0x18e)+_0x186f4e,_0x4e2236['HTTP-Referer']=window[_0x1f5565(0x16e)][_0x1f5565(0x1ec)],_0x4e2236[_0x1f5565(0x1fa)]=_0x1f5565(0x1ea),_0x50e49f={'model':_0x254551,'messages':[{'role':_0x1f5565(0x172),'content':_0x3b1e42}],'temperature':0.7,'max_tokens':0x7d0};else{if(currentProvider===_0x1f5565(0x1b7))_0x4e2236[_0x1f5565(0x1f1)]=_0x1f5565(0x18e)+_0x186f4e,_0x50e49f={'model':_0x254551,'messages':[{'role':_0x1f5565(0x172),'content':_0x3b1e42}],'temperature':0.7,'max_tokens':0x7d0};else{if(currentProvider===_0x1f5565(0x18f))_0x4a7d44='https://generativelanguage.googleapis.com/v1beta/models/'+_0x254551+_0x1f5565(0x189)+_0x186f4e,_0x50e49f={'contents':[{'parts':[{'text':_0x3b1e42}]}]};else currentProvider==='anthropic'&&(_0x4e2236['x-api-key']=_0x186f4e,_0x4e2236['anthropic-version']=_0x1f5565(0x1d2),_0x50e49f={'model':_0x254551,'max_tokens':0x7d0,'messages':[{'role':_0x1f5565(0x172),'content':_0x3b1e42}]});}}const _0x568e09=await fetch(_0x4a7d44,{'method':'POST','headers':_0x4e2236,'body':JSON[_0x1f5565(0x19e)](_0x50e49f)});if(!_0x568e09['ok']){const _0x155fb2=await _0x568e09['json']()[_0x1f5565(0x1f4)](()=>({}));if(_0x568e09[_0x1f5565(0x1d5)]===0x191)throw new Error('Неверный\x20API\x20ключ');if(_0x568e09['status']===0x1ad)throw new Error(_0x1f5565(0x17e));throw new Error(_0x155fb2[_0x1f5565(0x169)]?.['message']||_0x1f5565(0x1e7)+_0x568e09[_0x1f5565(0x1d5)]+':\x20'+JSON[_0x1f5565(0x19e)](_0x155fb2));}const _0x142a7f=await _0x568e09[_0x1f5565(0x1cc)]();if(currentProvider==='openrouter'||currentProvider===_0x1f5565(0x1b7))return totalTokens+=_0x142a7f[_0x1f5565(0x1ee)]?.[_0x1f5565(0x1a7)]||0x0,tokenCount['textContent']=totalTokens,_0x142a7f['choices'][0x0][_0x1f5565(0x196)][_0x1f5565(0x1be)];else{if(currentProvider==='google')return _0x142a7f[_0x1f5565(0x1dc)][0x0]['content'][_0x1f5565(0x1ad)][0x0][_0x1f5565(0x180)];else{if(currentProvider===_0x1f5565(0x18a))return _0x142a7f[_0x1f5565(0x1be)][0x0]['text'];}}return _0x1f5565(0x183);}async function sendMessage(){const _0x4ca47c=_0x397852,_0x24d23b=userInput[_0x4ca47c(0x1c2)][_0x4ca47c(0x17a)]();if(!_0x24d23b)return;addMessage(_0x24d23b,!![]),userInput[_0x4ca47c(0x1c2)]='',sendButton['disabled']=!![],userInput['style'][_0x4ca47c(0x15c)]=_0x4ca47c(0x1db),showTyping();try{const _0x793075=await callAPI(_0x24d23b);hideTyping(),addMessage(_0x793075,![]),statusText['textContent']=_0x4ca47c(0x1ac)+PROVIDERS[currentProvider]['name']+')';}catch(_0x4162e6){hideTyping(),addMessage(_0x4ca47c(0x191)+PROVIDERS[currentProvider][_0x4ca47c(0x195)]+_0x4ca47c(0x1c9)+_0x4162e6['message'],![]),statusText[_0x4ca47c(0x1e3)]='Ошибка';}sendButton[_0x4ca47c(0x1c1)]=![],userInput[_0x4ca47c(0x1b2)]();}userInput[_0x397852(0x1fb)](_0x397852(0x19c),_0x25a1b9=>{const _0x420a9a=_0x397852;if(_0x25a1b9[_0x420a9a(0x1a3)]===_0x420a9a(0x1b1)&&!_0x25a1b9[_0x420a9a(0x1c0)]){_0x25a1b9[_0x420a9a(0x1d3)]();if(!sendButton['disabled'])sendMessage();}}),userInput[_0x397852(0x1fb)]('input',()=>{const _0x30ddcd=_0x397852;userInput[_0x30ddcd(0x1eb)][_0x30ddcd(0x15c)]=_0x30ddcd(0x15b),userInput['style']['height']=Math[_0x30ddcd(0x1a1)](userInput[_0x30ddcd(0x170)],0x78)+'px';}),window[_0x397852(0x1fb)](_0x397852(0x1f8),()=>{initOpenRouter(),userInput['focus']();});
+const messagesDiv = document.getElementById('messages');
+const userInput = document.getElementById('userInput');
+const sendButton = document.getElementById('sendButton');
+const apiKeyInput = document.getElementById('apiKey');
+const providerSelect = document.getElementById('providerSelect');
+const modelSelect = document.getElementById('modelSelect');
+const tokenCount = document.getElementById('tokenCount');
+const messageCount = document.getElementById('messageCount');
+const statusText = document.getElementById('statusText');
+
+let totalTokens = 0;
+let messageCounter = 1;
+let currentProvider = 'openai';
+
+const PROVIDERS = {
+    openai: {
+        name: 'OpenAI',
+        url: 'https://api.openai.com/v1/chat/completions',
+        models: [
+            {id: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
+            {id: 'gpt-4', name: 'GPT-4'},
+            {id: 'gpt-4-turbo', name: 'GPT-4 Turbo'}
+        ],
+        keySite: 'https://platform.openai.com'
+    },
+    openrouter: {
+        name: 'OpenRouter',
+        url: 'https://openrouter.ai/api/v1/chat/completions',
+        models: [
+            {id: 'openai/gpt-3.5-turbo', name: 'GPT-3.5 Turbo'},
+            {id: 'openai/gpt-4', name: 'GPT-4'},
+            {id: 'meta-llama/llama-3.1-70b-instruct', name: 'Llama 3.1 70B'},
+            {id: 'google/gemini-pro', name: 'Gemini Pro'},
+            {id: 'anthropic/claude-2', name: 'Claude 2'}
+        ],
+        keySite: 'https://openrouter.ai'
+    },
+    google: {
+        name: 'Google AI',
+        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent',
+        models: [
+            {id: 'gemini-pro', name: 'Gemini Pro'}
+        ],
+        keySite: 'https://makersuite.google.com'
+    },
+    anthropic: {
+        name: 'Anthropic',
+        url: 'https://api.anthropic.com/v1/messages',
+        models: [
+            {id: 'claude-3-haiku-20240307', name: 'Claude 3 Haiku'},
+            {id: 'claude-3-sonnet-20240229', name: 'Claude 3 Sonnet'}
+        ],
+        keySite: 'https://console.anthropic.com'
+    }
+};
+
+function selectProvider() {
+    currentProvider = providerSelect.value;
+    statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
+    updateModels();
+}
+
+function updateModels() {
+    const provider = PROVIDERS[currentProvider];
+    modelSelect.innerHTML = provider.models.map(model => 
+        `<option value="${model.id}">${model.name}</option>`
+    ).join('');
+}
+
+function addMessage(text, isUser = false) {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${isUser ? 'user-message' : 'ai-message'}`;
+    
+    let content = text;
+    if (!isUser) {
+        content = formatCodeBlocks(text);
+        messageCounter++;
+        messageCount.textContent = messageCounter;
+    }
+    
+    messageDiv.innerHTML = content;
+    messagesDiv.appendChild(messageDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    
+    if (!isUser) {
+        setTimeout(() => {
+            const codeBlocks = messageDiv.querySelectorAll('.code-block');
+            codeBlocks.forEach(block => {
+                const copyBtn = block.querySelector('.copy-btn');
+                if (copyBtn) {
+                    copyBtn.onclick = () => {
+                        const code = block.querySelector('code').textContent;
+                        navigator.clipboard.writeText(code);
+                        const originalText = copyBtn.innerHTML;
+                        copyBtn.innerHTML = '<span>✓ Скопировано</span>';
+                        setTimeout(() => copyBtn.innerHTML = originalText, 2000);
+                    };
+                }
+            });
+        }, 100);
+    }
+}
+
+function formatCodeBlocks(text) {
+    let result = text;
+    
+    const codePatterns = [
+        {lang: 'javascript', pattern: /```(javascript|js)\s*([\s\S]*?)```/g},
+        {lang: 'python', pattern: /```(python|py)\s*([\s\S]*?)```/g},
+        {lang: 'html', pattern: /```(html)\s*([\s\S]*?)```/g},
+        {lang: 'css', pattern: /```(css)\s*([\s\S]*?)```/g},
+        {lang: 'java', pattern: /```(java)\s*([\s\S]*?)```/g},
+        {lang: 'cpp', pattern: /```(cpp|c\+\+)\s*([\s\S]*?)```/g},
+        {lang: 'bash', pattern: /```(bash|sh)\s*([\s\S]*?)```/g},
+        {lang: 'sql', pattern: /```(sql)\s*([\s\S]*?)```/g},
+        {lang: 'generic', pattern: /```(\w+)?\s*([\s\S]*?)```/g}
+    ];
+    
+    codePatterns.forEach(({lang, pattern}) => {
+        result = result.replace(pattern, (match, langName, code) => {
+            const language = langName || lang;
+            return `<div class="code-block">
+                <div class="code-header">
+                    <div class="code-language">${language.toUpperCase()}</div>
+                    <button class="copy-btn">📋 Копировать</button>
+                </div>
+                <pre><code>${escapeHtml(code.trim())}</code></pre>
+            </div>`;
+        });
+    });
+    
+    result = result.replace(/\n/g, '<br>');
+    result = result.replace(/\t/g, '    ');
+    result = result.replace(/ {4}/g, '&nbsp;&nbsp;&nbsp;&nbsp;');
+    result = result.replace(/ {2}/g, '&nbsp;&nbsp;');
+    
+    const inlineCodePattern = /`([^`]+)`/g;
+    result = result.replace(inlineCodePattern, '<code class="inline-code">$1</code>');
+    
+    return result;
+}
+
+function escapeHtml(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+function showTyping() {
+    const typingDiv = document.createElement('div');
+    typingDiv.className = 'typing-indicator';
+    typingDiv.id = 'typingIndicator';
+    typingDiv.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
+    messagesDiv.appendChild(typingDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+
+function hideTyping() {
+    const typing = document.getElementById('typingIndicator');
+    if (typing) typing.remove();
+}
+
+async function callAPI(prompt) {
+    const apiKey = apiKeyInput.value.trim();
+    const provider = PROVIDERS[currentProvider];
+    const model = modelSelect.value;
+    
+    if (!apiKey) throw new Error('Вставь API ключ');
+    
+    statusText.textContent = `${provider.name} думает...`;
+    
+    let url = provider.url;
+    let headers = { 'Content-Type': 'application/json' };
+    let body = {};
+    
+    if (currentProvider === 'openrouter') {
+        headers['Authorization'] = `Bearer ${apiKey}`;
+        headers['HTTP-Referer'] = window.location.href;
+        headers['X-Title'] = 'AI Chat';
+        body = {
+            model: model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+            max_tokens: 2000
+        };
+    }
+    else if (currentProvider === 'openai') {
+        headers['Authorization'] = `Bearer ${apiKey}`;
+        body = {
+            model: model,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.7,
+            max_tokens: 2000
+        };
+    }
+    else if (currentProvider === 'google') {
+        url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+        body = {
+            contents: [{ parts: [{ text: prompt }] }]
+        };
+    }
+    else if (currentProvider === 'anthropic') {
+        headers['x-api-key'] = apiKey;
+        headers['anthropic-version'] = '2023-06-01';
+        body = {
+            model: model,
+            max_tokens: 2000,
+            messages: [{ role: 'user', content: prompt }]
+        };
+    }
+    
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(body)
+    });
+    
+    if (!response.ok) {
+        const error = await response.json().catch(() => ({}));
+        if (response.status === 401) throw new Error('Неверный API ключ');
+        if (response.status === 429) throw new Error('Лимит токенов исчерпан');
+        throw new Error(error.error?.message || `Ошибка ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    if (currentProvider === 'openrouter' || currentProvider === 'openai') {
+        totalTokens += data.usage?.total_tokens || 0;
+        tokenCount.textContent = totalTokens;
+        return data.choices[0].message.content;
+    }
+    else if (currentProvider === 'google') {
+        return data.candidates[0].content.parts[0].text;
+    }
+    else if (currentProvider === 'anthropic') {
+        return data.content[0].text;
+    }
+    
+    return 'Ошибка: неизвестный формат ответа';
+}
+
+async function sendMessage() {
+    const message = userInput.value.trim();
+    if (!message) return;
+    
+    addMessage(message, true);
+    userInput.value = '';
+    sendButton.disabled = true;
+    userInput.style.height = '60px';
+    
+    showTyping();
+    
+    try {
+        const aiResponse = await callAPI(message);
+        hideTyping();
+        addMessage(aiResponse, false);
+        statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
+    } catch (error) {
+        hideTyping();
+        addMessage(`<span style="color:#ff5555">❌ Ошибка ${PROVIDERS[currentProvider].name}:</span> ${error.message}`, false);
+        statusText.textContent = 'Ошибка';
+    }
+    
+    sendButton.disabled = false;
+    userInput.focus();
+}
+
+userInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        if (!sendButton.disabled) sendMessage();
+    }
+});
+
+userInput.addEventListener('input', () => {
+    userInput.style.height = 'auto';
+    userInput.style.height = Math.min(userInput.scrollHeight, 120) + 'px';
+});
+
+updateModels();
+userInput.focus();
