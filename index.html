@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Code Chat</title>
+    <title>AI Chat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,31 +11,14 @@
         <div class="sidebar">
             <div class="logo">
                 <span class="logo-icon">🤖</span>
-                <span>AI Coder</span>
+                <span>AI Chat</span>
             </div>
 
             <div class="api-section">
-                <div class="section-title">
-                    <span class="selector-icon">⚡</span>
-                    Режим работы
-                </div>
-                
-                <div class="ai-selector">
-                    <div class="ai-option active" onclick="selectMode('openrouter')">
-                        <div class="ai-name">Готовый OpenRouter</div>
-                        <div class="ai-description">Бесплатный ключ уже вставлен</div>
-                    </div>
-                    
-                    <div class="ai-option" onclick="selectMode('custom')">
-                        <div class="ai-name">Свой ключ</div>
-                        <div class="ai-description">Вставь ключ с любого сайта</div>
-                    </div>
-                </div>
-
-                <div class="input-group" id="providerContainer">
+                <div class="input-group">
                     <div class="section-title">
                         <span class="selector-icon">🌐</span>
-                        Сайт ключа
+                        Выбери провайдера
                     </div>
                     <select class="model-select" id="providerSelect" onchange="selectProvider()">
                         <option value="openai">OpenAI (platform.openai.com)</option>
@@ -50,7 +33,7 @@
                         <span class="selector-icon">🔑</span>
                         API Ключ
                     </div>
-                    <input type="password" class="key-input" id="apiKey" placeholder="••••••••••••••••" autocomplete="off">
+                    <input type="password" class="key-input" id="apiKey" placeholder="Вставь свой API ключ" autocomplete="off">
                 </div>
 
                 <div class="input-group">
@@ -77,42 +60,40 @@
                 </div>
 
                 <div class="info-box">
-                    📍 <strong>OpenRouter</strong><br>
-                    🔗 <a href="https://openrouter.ai" target="_blank">openrouter.ai</a><br>
-                    🆓 10к токенов бесплатно в день<br>
-                    ⚡ Ключ уже вставлен в код
+                    📍 <strong>Вставь свой ключ</strong><br>
+                    🔗 Получи ключ на выбранном сайте<br>
+                    ⚡ Выбери модель из списка<br>
+                    💬 Начни общение
                 </div>
             </div>
         </div>
 
         <div class="chat-container">
             <div class="chat-header">
-                <div class="chat-title">💻 Чат с AI программистом</div>
+                <div class="chat-title">💬 AI Чат</div>
                 <div class="status-indicator">
                     <div class="status-dot"></div>
-                    <span id="statusText">Готов (OpenRouter)</span>
+                    <span id="statusText">Готов</span>
                 </div>
             </div>
 
             <div class="messages" id="messages">
                 <div class="message ai-message">
                     <div class="message-avatar ai-avatar">🤖</div>
-                    Привет! Я AI помощник для программирования. Могу писать код на JavaScript, Python, HTML/CSS и других языках. Просто попроси!<br><br>
-                    <strong>Режим:</strong> Готовый OpenRouter ключ<br>
-                    <strong>Модель:</strong> GPT-3.5 Turbo
+                    Привет! Вставь API ключ в поле слева и выбери провайдера. Затем выбери модель и начни общение!
                 </div>
             </div>
 
             <div class="input-area">
                 <div class="input-wrapper">
-                    <textarea class="message-input" id="userInput" placeholder="Напиши код на Python для сортировки массива..." rows="1"></textarea>
+                    <textarea class="message-input" id="userInput" placeholder="Введи сообщение..." rows="1"></textarea>
                     <button class="send-button" id="sendButton" onclick="sendMessage()">
                         <span>Отправить</span>
                         <span>🚀</span>
                     </button>
                 </div>
                 <div class="info-box">
-                    💡 Нажми Enter для отправки, Shift+Enter для новой строки
+                    💡 Нажми Enter для отправки
                 </div>
             </div>
         </div>
