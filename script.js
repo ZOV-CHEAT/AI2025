@@ -32,7 +32,11 @@ const PROVIDERS = {
             {id: 'openai/gpt-4', name: 'GPT-4'},
             {id: 'meta-llama/llama-3.1-70b-instruct', name: 'Llama 3.1 70B'},
             {id: 'google/gemini-pro', name: 'Gemini Pro'},
-            {id: 'anthropic/claude-2', name: 'Claude 2'}
+            {id: 'anthropic/claude-2', name: 'Claude 2'},
+            {id: 'deepseek/deepseek-chat', name: 'DeepSeek Chat'},
+            {id: 'deepseek/deepseek-coder', name: 'DeepSeek Coder'},
+            {id: 'qwen/qwen-2.5-72b-instruct', name: 'Qwen 2.5 72B'},
+            {id: 'nvidia/nemotron-4-340b-instruct', name: 'Nemotron 4 340B'}
         ],
         keySite: 'https://openrouter.ai'
     },
@@ -85,10 +89,10 @@ const PROVIDERS = {
 
 function selectProvider() {
     currentProvider = providerSelect.value;
-    const provider = PROVIDERS[currentProvider];
-    statusText.textContent = `Готов (${provider.name})`;
+    statusText.textContent = `Готов (${PROVIDERS[currentProvider].name})`;
     updateModels();
-    customModelInput.style.display = provider.allowCustom ? 'block' : 'none';
+    customModelInput.style.display = 'none';
+    customModelInput.value = '';
 }
 
 function updateModels() {
@@ -101,9 +105,6 @@ function updateModels() {
     modelSelect.innerHTML = models.map(model => 
         `<option value="${model.id}">${model.name}</option>`
     ).join('');
-    
-    customModelInput.style.display = provider.allowCustom ? 'block' : 'none';
-    customModelInput.value = '';
 }
 
 modelSelect.addEventListener('change', function() {
