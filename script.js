@@ -247,7 +247,7 @@ async function callAPI(prompt) {
             max_tokens: 2000
         };
     }
-    else if (currentProvider === 'openai' || currentProvider === 'deepseek') {
+    else if (currentProvider === 'openai' || currentProvider === 'deepseek' || currentProvider === 'nemotron') {
         headers['Authorization'] = `Bearer ${apiKey}`;
         body = {
             model: model,
@@ -281,15 +281,6 @@ async function callAPI(prompt) {
             parameters: {
                 result_format: 'message'
             }
-        };
-    }
-    else if (currentProvider === 'nemotron') {
-        headers['Authorization'] = `Bearer ${apiKey}`;
-        body = {
-            model: model,
-            messages: [{ role: 'user', content: prompt }],
-            temperature: 0.7,
-            max_tokens: 2000
         };
     }
     
